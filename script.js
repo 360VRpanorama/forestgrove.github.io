@@ -103,189 +103,6 @@
  "borderRadius": 0,
  "borderSize": 0,
  "definitions": [{
- "hfovMax": 130,
- "adjacentPanoramas": [
-  {
-   "class": "AdjacentPanorama",
-   "panorama": "this.panorama_BFAD8E2D_B1BD_3849_41BD_67EB93C125B9"
-  }
- ],
- "label": "Basketball Court",
- "id": "panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437",
- "class": "Panorama",
- "hfov": 360,
- "vfov": 180,
- "overlays": [
-  "this.overlay_BFBBFE8E_B1CE_C3DD_41D5_FAA5BDD199E0"
- ],
- "partial": false,
- "hfovMin": "150%",
- "frames": [
-  {
-   "front": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/f/0/{row}_{column}.jpg",
-      "rowCount": 2,
-      "tags": "ondemand",
-      "colCount": 2,
-      "width": 1024,
-      "class": "TiledImageResourceLevel",
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/f/1/{row}_{column}.jpg",
-      "rowCount": 1,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "colCount": 1,
-      "width": 512,
-      "class": "TiledImageResourceLevel",
-      "height": 512
-     }
-    ]
-   },
-   "top": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/u/0/{row}_{column}.jpg",
-      "rowCount": 2,
-      "tags": "ondemand",
-      "colCount": 2,
-      "width": 1024,
-      "class": "TiledImageResourceLevel",
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/u/1/{row}_{column}.jpg",
-      "rowCount": 1,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "colCount": 1,
-      "width": 512,
-      "class": "TiledImageResourceLevel",
-      "height": 512
-     }
-    ]
-   },
-   "thumbnailUrl": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_t.jpg",
-   "back": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/b/0/{row}_{column}.jpg",
-      "rowCount": 2,
-      "tags": "ondemand",
-      "colCount": 2,
-      "width": 1024,
-      "class": "TiledImageResourceLevel",
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/b/1/{row}_{column}.jpg",
-      "rowCount": 1,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "colCount": 1,
-      "width": 512,
-      "class": "TiledImageResourceLevel",
-      "height": 512
-     }
-    ]
-   },
-   "class": "CubicPanoramaFrame",
-   "bottom": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/d/0/{row}_{column}.jpg",
-      "rowCount": 2,
-      "tags": "ondemand",
-      "colCount": 2,
-      "width": 1024,
-      "class": "TiledImageResourceLevel",
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/d/1/{row}_{column}.jpg",
-      "rowCount": 1,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "colCount": 1,
-      "width": 512,
-      "class": "TiledImageResourceLevel",
-      "height": 512
-     }
-    ]
-   },
-   "left": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/l/0/{row}_{column}.jpg",
-      "rowCount": 2,
-      "tags": "ondemand",
-      "colCount": 2,
-      "width": 1024,
-      "class": "TiledImageResourceLevel",
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/l/1/{row}_{column}.jpg",
-      "rowCount": 1,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "colCount": 1,
-      "width": 512,
-      "class": "TiledImageResourceLevel",
-      "height": 512
-     }
-    ]
-   },
-   "right": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/r/0/{row}_{column}.jpg",
-      "rowCount": 2,
-      "tags": "ondemand",
-      "colCount": 2,
-      "width": 1024,
-      "class": "TiledImageResourceLevel",
-      "height": 1024
-     },
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/r/1/{row}_{column}.jpg",
-      "rowCount": 1,
-      "tags": [
-       "ondemand",
-       "preload"
-      ],
-      "colCount": 1,
-      "width": 512,
-      "class": "TiledImageResourceLevel",
-      "height": 512
-     }
-    ]
-   }
-  }
- ],
- "pitch": 0,
- "thumbnailUrl": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_t.jpg"
-},
-{
  "initialPosition": {
   "class": "PanoramaCameraPosition",
   "yaw": 0,
@@ -340,7 +157,7 @@
 {
  "initialPosition": {
   "class": "PanoramaCameraPosition",
-  "yaw": 109.52,
+  "yaw": 16.82,
   "pitch": 0
  },
  "initialSequence": {
@@ -368,7 +185,7 @@
   "restartMovementOnUserInteraction": false
  },
  "class": "PanoramaCamera",
- "id": "camera_A19D3938_B1C3_CEC6_41C7_A3593DB22A8F",
+ "id": "camera_A024C981_B1C1_41C7_41E3_AAE6100C82F6",
  "automaticZoomSpeed": 10
 },
 {
@@ -448,6 +265,40 @@
 {
  "initialPosition": {
   "class": "PanoramaCameraPosition",
+  "yaw": 137.4,
+  "pitch": 0
+ },
+ "initialSequence": {
+  "class": "PanoramaCameraSequence",
+  "movements": [
+   {
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5,
+    "easing": "cubic_in"
+   },
+   {
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323,
+    "easing": "linear"
+   },
+   {
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5,
+    "easing": "cubic_out"
+   }
+  ],
+  "restartMovementOnUserInteraction": false
+ },
+ "class": "PanoramaCamera",
+ "id": "camera_A04E9921_B1C1_4EC6_41C8_3FED24DDAE46",
+ "automaticZoomSpeed": 10
+},
+{
+ "initialPosition": {
+  "class": "PanoramaCameraPosition",
   "yaw": 35.4,
   "pitch": 0
  },
@@ -476,13 +327,13 @@
   "restartMovementOnUserInteraction": false
  },
  "class": "PanoramaCamera",
- "id": "camera_A1B6B986_B1C3_C1CA_41DC_F0ACB66DBAC0",
+ "id": "camera_A00689D0_B1C1_4146_41CE_DD589597F0B4",
  "automaticZoomSpeed": 10
 },
 {
  "initialPosition": {
   "class": "PanoramaCameraPosition",
-  "yaw": 94.7,
+  "yaw": -71.21,
   "pitch": 0
  },
  "initialSequence": {
@@ -510,7 +361,7 @@
   "restartMovementOnUserInteraction": false
  },
  "class": "PanoramaCamera",
- "id": "camera_A146D998_B1C3_C1C5_41DE_E4110358427D",
+ "id": "camera_A03749A0_B1C1_41C5_41C1_4AB7F3A4980D",
  "automaticZoomSpeed": 10
 },
 {
@@ -702,7 +553,7 @@
 {
  "initialPosition": {
   "class": "PanoramaCameraPosition",
-  "yaw": 137.4,
+  "yaw": 0,
   "pitch": 0
  },
  "initialSequence": {
@@ -730,7 +581,7 @@
   "restartMovementOnUserInteraction": false
  },
  "class": "PanoramaCamera",
- "id": "camera_A18FC929_B1C3_CEC7_41DA_7FBA14622A7D",
+ "id": "panorama_BFA03C51_B1BD_18D9_41E3_87F47E2C6B08_camera",
  "automaticZoomSpeed": 10
 },
 {
@@ -816,7 +667,7 @@
   "restartMovementOnUserInteraction": false
  },
  "class": "PanoramaCamera",
- "id": "panorama_BFA03C51_B1BD_18D9_41E3_87F47E2C6B08_camera",
+ "id": "panorama_BF53F03C_B1BF_284F_41DD_C352FC8418D0_camera",
  "automaticZoomSpeed": 10
 },
 {
@@ -1443,7 +1294,7 @@
 {
  "initialPosition": {
   "class": "PanoramaCameraPosition",
-  "yaw": 0,
+  "yaw": 94.7,
   "pitch": 0
  },
  "initialSequence": {
@@ -1471,7 +1322,7 @@
   "restartMovementOnUserInteraction": false
  },
  "class": "PanoramaCamera",
- "id": "panorama_BF53F03C_B1BF_284F_41DD_C352FC8418D0_camera",
+ "id": "camera_A01179FF_B1C1_413A_41D9_D9F8DACAEB4D",
  "automaticZoomSpeed": 10
 },
 {
@@ -1509,9 +1360,27 @@
  "automaticZoomSpeed": 10
 },
 {
+ "height": 2500,
+ "thumbnailUrl": "media/photo_765DDD36_7A52_D51C_41D4_71F91FECEBAB_t.jpg",
+ "label": "Kids_Hi res",
+ "id": "photo_765DDD36_7A52_D51C_41D4_71F91FECEBAB",
+ "duration": 5000,
+ "width": 4000,
+ "class": "Photo",
+ "image": {
+  "class": "ImageResource",
+  "levels": [
+   {
+    "url": "media/photo_765DDD36_7A52_D51C_41D4_71F91FECEBAB.jpg",
+    "class": "ImageResourceLevel"
+   }
+  ]
+ }
+},
+{
  "initialPosition": {
   "class": "PanoramaCameraPosition",
-  "yaw": -71.21,
+  "yaw": 109.52,
   "pitch": 0
  },
  "initialSequence": {
@@ -1539,39 +1408,8 @@
   "restartMovementOnUserInteraction": false
  },
  "class": "PanoramaCamera",
- "id": "camera_A1A09967_B1C3_C14B_41B5_16F916807AF2",
+ "id": "camera_A05AE950_B1C1_4145_4194_43E2AF29BEBE",
  "automaticZoomSpeed": 10
-},
-{
- "height": 2500,
- "thumbnailUrl": "media/photo_765DDD36_7A52_D51C_41D4_71F91FECEBAB_t.jpg",
- "label": "Kids_Hi res",
- "id": "photo_765DDD36_7A52_D51C_41D4_71F91FECEBAB",
- "duration": 5000,
- "width": 4000,
- "class": "Photo",
- "image": {
-  "class": "ImageResource",
-  "levels": [
-   {
-    "url": "media/photo_765DDD36_7A52_D51C_41D4_71F91FECEBAB.jpg",
-    "class": "ImageResourceLevel"
-   }
-  ]
- }
-},
-{
- "audio": {
-  "class": "AudioResource",
-  "mp3Url": "media/audio_3474E1DB_05BF_06CA_4181_847828A6CE51.mp3",
-  "oggUrl": "media/audio_3474E1DB_05BF_06CA_4181_847828A6CE51.ogg"
- },
- "autoplay": true,
- "class": "MediaAudio",
- "id": "audio_3474E1DB_05BF_06CA_4181_847828A6CE51",
- "data": {
-  "label": "Romantic"
- }
 },
 {
  "hfovMax": 130,
@@ -1765,38 +1603,200 @@
  "thumbnailUrl": "media/panorama_BFA03C51_B1BD_18D9_41E3_87F47E2C6B08_t.jpg"
 },
 {
- "initialPosition": {
-  "class": "PanoramaCameraPosition",
-  "yaw": 16.82,
-  "pitch": 0
+ "audio": {
+  "class": "AudioResource",
+  "mp3Url": "media/audio_3474E1DB_05BF_06CA_4181_847828A6CE51.mp3",
+  "oggUrl": "media/audio_3474E1DB_05BF_06CA_4181_847828A6CE51.ogg"
  },
- "initialSequence": {
-  "class": "PanoramaCameraSequence",
-  "movements": [
-   {
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5,
-    "easing": "cubic_in"
+ "autoplay": true,
+ "class": "MediaAudio",
+ "id": "audio_3474E1DB_05BF_06CA_4181_847828A6CE51",
+ "data": {
+  "label": "Romantic"
+ }
+},
+{
+ "hfovMax": 130,
+ "adjacentPanoramas": [
+  {
+   "class": "AdjacentPanorama",
+   "panorama": "this.panorama_BFAD8E2D_B1BD_3849_41BD_67EB93C125B9"
+  }
+ ],
+ "label": "Basketball Court",
+ "id": "panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437",
+ "class": "Panorama",
+ "hfov": 360,
+ "vfov": 180,
+ "overlays": [
+  "this.overlay_BFBBFE8E_B1CE_C3DD_41D5_FAA5BDD199E0"
+ ],
+ "partial": false,
+ "hfovMin": "150%",
+ "frames": [
+  {
+   "front": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/f/0/{row}_{column}.jpg",
+      "rowCount": 2,
+      "tags": "ondemand",
+      "colCount": 2,
+      "width": 1024,
+      "class": "TiledImageResourceLevel",
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/f/1/{row}_{column}.jpg",
+      "rowCount": 1,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "colCount": 1,
+      "width": 512,
+      "class": "TiledImageResourceLevel",
+      "height": 512
+     }
+    ]
    },
-   {
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323,
-    "easing": "linear"
+   "top": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/u/0/{row}_{column}.jpg",
+      "rowCount": 2,
+      "tags": "ondemand",
+      "colCount": 2,
+      "width": 1024,
+      "class": "TiledImageResourceLevel",
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/u/1/{row}_{column}.jpg",
+      "rowCount": 1,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "colCount": 1,
+      "width": 512,
+      "class": "TiledImageResourceLevel",
+      "height": 512
+     }
+    ]
    },
-   {
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5,
-    "easing": "cubic_out"
+   "thumbnailUrl": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_t.jpg",
+   "back": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/b/0/{row}_{column}.jpg",
+      "rowCount": 2,
+      "tags": "ondemand",
+      "colCount": 2,
+      "width": 1024,
+      "class": "TiledImageResourceLevel",
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/b/1/{row}_{column}.jpg",
+      "rowCount": 1,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "colCount": 1,
+      "width": 512,
+      "class": "TiledImageResourceLevel",
+      "height": 512
+     }
+    ]
+   },
+   "class": "CubicPanoramaFrame",
+   "bottom": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/d/0/{row}_{column}.jpg",
+      "rowCount": 2,
+      "tags": "ondemand",
+      "colCount": 2,
+      "width": 1024,
+      "class": "TiledImageResourceLevel",
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/d/1/{row}_{column}.jpg",
+      "rowCount": 1,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "colCount": 1,
+      "width": 512,
+      "class": "TiledImageResourceLevel",
+      "height": 512
+     }
+    ]
+   },
+   "left": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/l/0/{row}_{column}.jpg",
+      "rowCount": 2,
+      "tags": "ondemand",
+      "colCount": 2,
+      "width": 1024,
+      "class": "TiledImageResourceLevel",
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/l/1/{row}_{column}.jpg",
+      "rowCount": 1,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "colCount": 1,
+      "width": 512,
+      "class": "TiledImageResourceLevel",
+      "height": 512
+     }
+    ]
+   },
+   "right": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/r/0/{row}_{column}.jpg",
+      "rowCount": 2,
+      "tags": "ondemand",
+      "colCount": 2,
+      "width": 1024,
+      "class": "TiledImageResourceLevel",
+      "height": 1024
+     },
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_0/r/1/{row}_{column}.jpg",
+      "rowCount": 1,
+      "tags": [
+       "ondemand",
+       "preload"
+      ],
+      "colCount": 1,
+      "width": 512,
+      "class": "TiledImageResourceLevel",
+      "height": 512
+     }
+    ]
    }
-  ],
-  "restartMovementOnUserInteraction": false
- },
- "class": "PanoramaCamera",
- "id": "camera_A1936958_B1C3_C145_41CB_9FB6EB8610A8",
- "automaticZoomSpeed": 10
+  }
+ ],
+ "pitch": 0,
+ "thumbnailUrl": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_t.jpg"
 },
 {
  "height": 2250,
@@ -2402,55 +2402,8 @@
   {
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
-   "click": "this.mainPlayList.set('selectedIndex', 3)",
-   "toolTip": "TreeHouseKids"
-  }
- ],
- "maps": [
-  {
-   "class": "HotspotPanoramaOverlayMap",
-   "yaw": -140.07,
-   "image": {
-    "class": "ImageResource",
-    "levels": [
-     {
-      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_1_HS_0_0_0_map.gif",
-      "class": "ImageResourceLevel",
-      "width": 16,
-      "height": 16
-     }
-    ]
-   },
-   "pitch": 1.18,
-   "hfov": 9
-  }
- ],
- "data": {
-  "label": "Circle Gneric 03"
- },
- "useHandCursor": true,
- "class": "HotspotPanoramaOverlay",
- "items": [
-  {
-   "class": "HotspotPanoramaOverlayImage",
-   "image": "this.AnimatedImageResource_A06E468D_B1C1_43DF_41E0_8656C28FA450",
-   "pitch": 1.18,
-   "yaw": -140.07,
-   "hfov": 9,
-   "distance": 50
-  }
- ],
- "id": "overlay_BFBBFE8E_B1CE_C3DD_41D5_FAA5BDD199E0",
- "rollOverDisplay": false,
- "enabledInCardboard": true
-},
-{
- "areas": [
-  {
-   "class": "HotspotPanoramaOverlayArea",
-   "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_BCD8E0B5_B1BD_E859_41D5_815DEC60F1EA, this.camera_A146D998_B1C3_C1C5_41DE_E4110358427D); this.mainPlayList.set('selectedIndex', 5)",
-   "toolTip": "TreeHouseKids"
+   "click": "this.startPanoramaWithCamera(this.panorama_BCD8E0B5_B1BD_E859_41D5_815DEC60F1EA, this.camera_A01179FF_B1C1_413A_41D9_D9F8DACAEB4D); this.mainPlayList.set('selectedIndex', 5)",
+   "toolTip": "Swimming Pool"
   }
  ],
  "maps": [
@@ -2496,8 +2449,8 @@
   {
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_BCD26511_B1BD_E859_41D5_6990CBF48BF7, this.camera_A1936958_B1C3_C145_41CB_9FB6EB8610A8); this.mainPlayList.set('selectedIndex', 6)",
-   "toolTip": "TreeHouseKids"
+   "click": "this.startPanoramaWithCamera(this.panorama_BCD26511_B1BD_E859_41D5_6990CBF48BF7, this.camera_A024C981_B1C1_41C7_41E3_AAE6100C82F6); this.mainPlayList.set('selectedIndex', 6)",
+   "toolTip": "KidsPool"
   }
  ],
  "maps": [
@@ -2543,7 +2496,7 @@
   {
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_BFA03C51_B1BD_18D9_41E3_87F47E2C6B08, this.camera_A19D3938_B1C3_CEC6_41C7_A3593DB22A8F); this.mainPlayList.set('selectedIndex', 2)",
+   "click": "this.startPanoramaWithCamera(this.panorama_BFA03C51_B1BD_18D9_41E3_87F47E2C6B08, this.camera_A05AE950_B1C1_4145_4194_43E2AF29BEBE); this.mainPlayList.set('selectedIndex', 2)",
    "toolTip": "JungleArea"
   }
  ],
@@ -2590,7 +2543,7 @@
   {
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_BCFFFAD1_B1BF_39D9_41D2_509879A2CEA3, this.camera_A18FC929_B1C3_CEC7_41DA_7FBA14622A7D); this.mainPlayList.set('selectedIndex', 0)",
+   "click": "this.startPanoramaWithCamera(this.panorama_BCFFFAD1_B1BF_39D9_41D2_509879A2CEA3, this.camera_A04E9921_B1C1_4EC6_41C8_3FED24DDAE46); this.mainPlayList.set('selectedIndex', 0)",
    "toolTip": "TennisArea"
   }
  ],
@@ -2638,7 +2591,7 @@
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
    "click": "this.mainPlayList.set('selectedIndex', 4)",
-   "toolTip": "TreeHouseKids"
+   "toolTip": "Basketball Court"
   }
  ],
  "maps": [
@@ -2804,7 +2757,7 @@
   {
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_BF53F03C_B1BF_284F_41DD_C352FC8418D0, this.camera_A1A09967_B1C3_C14B_41B5_16F916807AF2); this.mainPlayList.set('selectedIndex', 1)",
+   "click": "this.startPanoramaWithCamera(this.panorama_BF53F03C_B1BF_284F_41DD_C352FC8418D0, this.camera_A03749A0_B1C1_41C5_41C1_4AB7F3A4980D); this.mainPlayList.set('selectedIndex', 1)",
    "toolTip": "TreeHouseKids"
   }
  ],
@@ -2851,7 +2804,7 @@
   {
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_BF53F03C_B1BF_284F_41DD_C352FC8418D0, this.camera_A1B6B986_B1C3_C1CA_41DC_F0ACB66DBAC0); this.mainPlayList.set('selectedIndex', 1)",
+   "click": "this.startPanoramaWithCamera(this.panorama_BF53F03C_B1BF_284F_41DD_C352FC8418D0, this.camera_A00689D0_B1C1_4146_41CE_DD589597F0B4); this.mainPlayList.set('selectedIndex', 1)",
    "toolTip": "TreeHouseKids"
   }
  ],
@@ -2899,7 +2852,7 @@
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
    "click": "this.mainPlayList.set('selectedIndex', 3)",
-   "toolTip": "TreeHouseKids"
+   "toolTip": "Amphi"
   }
  ],
  "maps": [
@@ -2945,8 +2898,55 @@
   {
    "class": "HotspotPanoramaOverlayArea",
    "mapColor": "#FF0000",
+   "click": "this.mainPlayList.set('selectedIndex', 3)",
+   "toolTip": "Amphi"
+  }
+ ],
+ "maps": [
+  {
+   "class": "HotspotPanoramaOverlayMap",
+   "yaw": -140.07,
+   "image": {
+    "class": "ImageResource",
+    "levels": [
+     {
+      "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_1_HS_0_0_0_map.gif",
+      "class": "ImageResourceLevel",
+      "width": 16,
+      "height": 16
+     }
+    ]
+   },
+   "pitch": 1.18,
+   "hfov": 9
+  }
+ ],
+ "data": {
+  "label": "Circle Gneric 03"
+ },
+ "useHandCursor": true,
+ "class": "HotspotPanoramaOverlay",
+ "items": [
+  {
+   "class": "HotspotPanoramaOverlayImage",
+   "image": "this.AnimatedImageResource_A06E468D_B1C1_43DF_41E0_8656C28FA450",
+   "pitch": 1.18,
+   "yaw": -140.07,
+   "hfov": 9,
+   "distance": 50
+  }
+ ],
+ "id": "overlay_BFBBFE8E_B1CE_C3DD_41D5_FAA5BDD199E0",
+ "rollOverDisplay": false,
+ "enabledInCardboard": true
+},
+{
+ "areas": [
+  {
+   "class": "HotspotPanoramaOverlayArea",
+   "mapColor": "#FF0000",
    "click": "this.mainPlayList.set('selectedIndex', 5)",
-   "toolTip": "TreeHouseKids"
+   "toolTip": "Swimming Pool"
   }
  ],
  "maps": [
@@ -3065,22 +3065,6 @@
  "visible": false,
  "overflow": "scroll",
  "scrollBarVisible": "rollOver"
-},
-{
- "frameDuration": 41,
- "levels": [
-  {
-   "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_1_HS_0_0.png",
-   "class": "ImageResourceLevel",
-   "width": 1000,
-   "height": 1500
-  }
- ],
- "frameCount": 24,
- "class": "AnimatedImageResource",
- "rowCount": 6,
- "id": "AnimatedImageResource_A06E468D_B1C1_43DF_41E0_8656C28FA450",
- "colCount": 4
 },
 {
  "frameDuration": 41,
@@ -3208,6 +3192,22 @@
  "class": "AnimatedImageResource",
  "rowCount": 6,
  "id": "AnimatedImageResource_A06EB68D_B1C1_43DF_41AE_DC5BED9E55EB",
+ "colCount": 4
+},
+{
+ "frameDuration": 41,
+ "levels": [
+  {
+   "url": "media/panorama_BCEA59E2_B1BD_1BFB_41BA_CBA168D7A437_1_HS_0_0.png",
+   "class": "ImageResourceLevel",
+   "width": 1000,
+   "height": 1500
+  }
+ ],
+ "frameCount": 24,
+ "class": "AnimatedImageResource",
+ "rowCount": 6,
+ "id": "AnimatedImageResource_A06E468D_B1C1_43DF_41E0_8656C28FA450",
  "colCount": 4
 },
 {
